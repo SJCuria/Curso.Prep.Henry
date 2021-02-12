@@ -1,0 +1,22 @@
+Variable: La variable es un espacio en la memoria que puede volver a ser utilizado mas adelante. 
+En una variable en JS se pueden almacenar diferentes tipos de datos:
+* Tipo String: Es una cadena de texto que se encierra entre "" o '', es decir, que son las palabras. Por ejemplo: "Santiago José Curiá".
+* Tipo Number: Este tipo de dato son los numeros. Por ejemplo: 1, 2,19 , 3000.
+* Tipo Boolean: Este tipo de dato se refiere al true or false. Esto significa prendido o apagado, 1 o 0, etc. Por ejemplo: aprendiendo = true.
+* Tipo Null: Este tipo de dato significa vacio, es decir que no contiene nada. Es diferente a 0 y a "". Por ejemplo: trabajo = null.
+* Tipo undefined: Este tipo de dato significa no definido. Este se da cuando no se le asigna ningun valor a al variable. Por ejemplo: var edad; 
+
+Hay diferentes maneras de declarar una variable y estas son: 
+Con la palabra clave var que es la mas comun. 
+Con la palabra clave let que se comezo a usar a partir de ES6 que tiene diferencias en el Scope. 
+Con la palabra clave const a este tipo de declaracion despues no se le puede cambiar el valor que se le asigna ya que es constante. Por ejemplo const PI = 3,14; 
+
+Funciones 
+
+Las funciones sirven para la reutilizacion del codigo. Ya que nosotros podemos encerrar todo un bloque de codigo que retorne un valor en una funcion y no tendremos que copiar y pegar el mismo bloque mas adelante si no que llamando a la funcion lo resolveriamos.
+Todas las funciones retornan un valor, es decir, que tienen en su bloque de codigo la declaracion return. Esta declaracion no solo funciona para devolver un valor si no que tambien para cortar el bloque de codigo. 
+
+IF 
+
+Los if son condicionales en el cual si se cumple una condicion se ejecuta el bloque de codigo acontinuacion de este y si no se cumple se ejecuta el codigo acontinuacion del else (si este no esta no se ejecuta nada). 
+Dentro del if pueden haber infinitos if con diferentes condiciones. 
