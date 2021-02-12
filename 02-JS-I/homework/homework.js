@@ -246,18 +246,8 @@ function esVocal(letra){
   //Escribe tu código aquí
   var cantidad = letra.length;
   if (cantidad == 1) {
-    if (letra == "a"){
+    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
       return "Es vocal";
-    } else if (letra == "e"){
-      return "Es vocal";
-    } else if (letra = "i") {
-      return "Es vocal";
-    } else if (letra == "o"){
-      return "Es vocal";
-    } else if (letra == "u") {
-      return "Es vocal";
-    } else {
-      return "Dato incorrecto";
     }
   } else {
     return "Dato incorrecto"
